@@ -10,6 +10,6 @@ Os 3 desafios estão divididos em funções dentro do arquivo Program.java.
 
 As funções são chamadas na classe main no arquivo Program.java onde é possivel ver a entrada e saida de dados de cada função
 
-Os testes podem ser visualizados no arquivo Teste.
+Os testes podem ser visualizados no arquivo Teste.java
       
       
