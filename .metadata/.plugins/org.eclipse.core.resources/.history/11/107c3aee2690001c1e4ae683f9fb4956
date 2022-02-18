@@ -1,0 +1,24 @@
+package test;
+
+import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.fail;
+
+import java.util.Scanner;
+
+import org.junit.jupiter.api.Test;
+
+import application.Program;
+
+class Teste2 {
+
+	@Test
+	void test() {
+		Program p = new Program();
+		String s = p.desafio2("123456");
+
+		//assertEquals("caso de teste ok", "Falta pelo menos 3 caracteres para a senha ser segura", s);
+		assertEquals("caso de teste ok", "senha segura!", s);
+	}
+	
+
+}

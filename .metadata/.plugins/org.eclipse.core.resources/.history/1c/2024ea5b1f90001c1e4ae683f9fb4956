@@ -1,0 +1,29 @@
+package application;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+
+		//lista para guardar os degraus
+		List<String> degraus = new ArrayList<>();
+
+		int n = sc.nextInt();
+
+		//for para preencher a lista com as linhas representando os degraus
+		for (int i = 1; i <= n; i++) {
+			degraus.add(" ".repeat(n - i) + "*".repeat(i));
+		}
+
+		//imprimi a lista
+		for (String d : degraus) {
+			System.out.println(d);
+		}
+
+		sc.close();
+}
